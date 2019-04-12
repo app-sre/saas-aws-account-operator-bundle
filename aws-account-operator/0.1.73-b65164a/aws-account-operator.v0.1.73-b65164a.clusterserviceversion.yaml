@@ -21,9 +21,9 @@ spec:
     - description: Account Claims for reconciled AWS Accounts.
       displayName: Account Claim
       kind: AccountClaim
-      name: accountclaim.aws.managed.openshift.io
+      name: accountclaims.aws.managed.openshift.io
       version: v1alpha1
-    - description: Pool of unclaimed reconiled AWS Accounts.
+    - description: Pool of unclaimed AWS Accounts.
       displayName: Account Pool
       kind: AccountPool
       name: accountpools.aws.managed.openshift.io
@@ -123,5 +123,4 @@ spec:
   maturity: alpha
   provider:
     name: Red Hat, Inc
-  replaces: aws-account-operator.v0.1.63-e014650
   version: 0.1.73-b65164a
