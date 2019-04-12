@@ -5,10 +5,10 @@ metadata:
     categories: A list of comma separated categories that your operator falls under.
     certified: 'false'
     containerImage: quay.io/app-sre/aws-account-operator:latest
-    createdAt: '2019-04-12T00:01:34Z'
+    createdAt: '2019-04-11T19:32:06Z'
     description: AWS account creator.
     support: James Harrington
-  name: aws-account-operator.v0.1.74-62bf33b
+  name: aws-account-operator.v0.1.73-b65164a
   namespace: placeholder
 spec:
   customresourcedefinitions:
@@ -101,7 +101,7 @@ spec:
                       fieldPath: metadata.name
                 - name: OPERATOR_NAME
                   value: aws-account-operator
-                image: quay.io/app-sre/aws-account-operator:62bf33b
+                image: quay.io/app-sre/aws-account-operator:b65164a
                 imagePullPolicy: Always
                 name: aws-account-operator
               serviceAccountName: aws-account-operator
@@ -123,5 +123,4 @@ spec:
   maturity: alpha
   provider:
     name: Red Hat, Inc
-  replaces: aws-account-operator.v
-  version: 0.1.74-62bf33b
+  version: 0.1.73-b65164a
