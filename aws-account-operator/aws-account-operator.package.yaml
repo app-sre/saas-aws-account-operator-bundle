@@ -1,4 +1,4 @@
 packageName: aws-account-operator
 channels:
 - name: production
-  currentCSV: aws-account-operator.v0.1.81-b32c7f6
+  currentCSV: aws-account-operator.v0.1.83-3e7ea73
