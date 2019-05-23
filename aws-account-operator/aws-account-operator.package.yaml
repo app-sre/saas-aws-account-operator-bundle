@@ -1,4 +1,4 @@
 packageName: aws-account-operator
 channels:
 - name: staging
-  currentCSV: aws-account-operator.v0.1.115-0f0abb8
+  currentCSV: aws-account-operator.v0.1.118-8919743
